@@ -1,0 +1,41 @@
+body {
+
+   
+    backdrop-filter: brightness(155%);
+
+    background-image: url("https://mixmag.com.br/assets/uploads/images/_full/Tomorrowland-2015.jpg");
+    background-repeat: no-repeat;
+    
+  
+    background-position: center;
+  
+    background-repeat:inherit;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+h2 {
+
+    text-align: right;
+}
+
+
+#box {
+
+    width: 1100px;
+    height: 600px;
+    background: white;
+    margin: auto;
+  
+}
+
+p1 {
+    margin-left: 5px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
