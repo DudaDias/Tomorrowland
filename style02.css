@@ -21,7 +21,7 @@ h2 {
     margin-right: 7px;
 }
 
-#box {
+.box {
 
     width: 1110px;
     height: 1150px;
@@ -30,7 +30,7 @@ h2 {
     margin: auto;
 }
 
-#boxx {
+.img {
 
     width: 1090px;
     height: 450px;

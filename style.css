@@ -23,13 +23,13 @@ h2 {
     color: white;
 }
 
-#logo {
+.logo {
 
     width: 1100px;
     height: 580px;
 }
 
-#box {
+.box {
 
     width: 700px;
     height: 180px;
