@@ -16,18 +16,21 @@ h1 {
 }
 
 h2 {
-
+    
+    font-family: Verdana;
+    font-size: 18px;
     text-align: right;
     margin-right: 7px;
+
 }
 
 .box {
 
     width: 1110px;
-    height: 1150px;
-    background-position: center;
+    height: 910px;
+    margin:auto;
     background: white;
-    margin: auto;
+  
 }
 
 .img {
@@ -40,8 +43,10 @@ h2 {
     margin-right: 10px;
 }
 
-p1 {
+p {
 
     font-family: Verdana;
-    font-size: 15px;
+    font-size: 18px;
+    margin-left: 8em;
+    margin-right: 8em;
 }
