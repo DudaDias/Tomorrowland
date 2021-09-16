@@ -17,7 +17,7 @@
 body {
      
     background-repeat:initial;
-    background-image: url(../img/logo02.jpg);
+    background-color: black;
     background-position: center;
     backdrop-filter: blur(20px);
     width: 100%;
@@ -176,33 +176,57 @@ body {
 	order: 3;
 	margin-top: 30px;
     margin-bottom: 20px;
-	background-color: #fff;
+	background-color:black;
 
     background-position: center;
-    margin-left: 10%;
-    margin-right: 10%;
-	opacity: 0.9;
-    padding: 5%;
-    display: flexbox;
+    margin-left: 3%;
+    margin-right: 3%;
+	opacity: 10;
     border-radius: 1%;
+    display: flexbox;
+  
+}
+
+.corpo iframe{
+    
+    width:100%;
    
+ 
 }
 
 
-.corpo h1{
+.memory{
 
-    font-family: Garamond;
-    font-size: 30px;
+    width: 100%;
+    background-color: black;
+
+}
+
+.imagem {
+
+    order: 5;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.box{
+
+    margin: 12px;
+    background-position: center;
+    padding: 1%;
+    width: 48%;
+    background-color: white;
+    display: inline-block;
+    border-radius: 1%;
+
+}
+
+.box p1{
+
+    font-size: 15px;
     
 }
-
-
-.corpo p{
-
-    font-family: Arial;
-    font-size: 20px;
-}
-
 
 .footer {
 
@@ -211,7 +235,7 @@ body {
 	margin-top: 10px;
 	width: 100%;  
     background-color: black;
-    opacity: 0.9;
+    opacity: 10;
 	
 }
 
@@ -225,6 +249,7 @@ body {
     
 }
 
+
 .footer h4{
     
     font-family: Arial;
@@ -232,7 +257,6 @@ body {
     color: white;
     text-align: center;
 }
-
 
 .footer a{
   
@@ -283,5 +307,4 @@ body {
     display: flexbox;
 
 }
-
 

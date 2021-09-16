@@ -2,12 +2,24 @@
 	box-sizing:	border-box;
 }
 
+.container { 
+
+	width: auto;
+    height:auto;
+  
+	margin-top: 0px;
+	display: flex;  flex-wrap: wrap;
+    border-top-width: 0px;
+   
+}
+
 
 body {
      
     background-repeat:initial;
-    background-color: white;
+    background-image: url(../img/t\(img04\).jpg);
     background-position: center;
+    backdrop-filter: brightness(50%);
     width: 100%;
     max-width: 100%;
     margin: 0;
@@ -15,126 +27,151 @@ body {
 
 }
 
-
-
-
-.container { 
-
-	width: auto;
-    height:auto;
-	margin-top: 0px;
-	display: flex;  flex-wrap: wrap;
-    border-top-width: 0px;
-   
-}
-
 .header {
   
 	order:1;
     display: flexbox;
+    opacity: 0.8;
 	background-color: black;
-	width: 40%;  
+	width: 30%;  
+ 
 
 }
-
-
-
 
 .header h1 {
 
     display: flexbox;
     font-family: Garamond;
-    font-size: 28px;
+    font-size: 32px;
     color: #9871de;
     text-align: center;
         
-}
 
-.box{
-
-    width: 100%;
-    background-color: white;
-    padding: 5%;
 }
 
  .header img{
 
     height: auto;
-    display: flexbox;
-    width: 10%;
-    margin-left: 45%;
-    margin-right: 45%;
+    background-position: center;
+    display: flex;
+    width: 15%;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
     
 }
 
+
 .index {
 
-    width:60%; 
+    width:70%; 
     height: auto;
 	order: 2;   
+    opacity: 0.8;
     background-color: black;
-    padding: 5%;
+    padding: 3%;
     display: flexbox;
    
 	
 }
+.index p1{
 
-.index a:before {
-
-    content: "  |  ";
-    color: black;
-
-}
-
-.index p2{
-
-    position:relative;top:0;padding:4px;
-    transition: all .2s ease-in-out;
-    color: #9871de;
-    text-decoration: underline;
-    text-underline-position:under;
-    top:-4px;box-shadow:0 4px 3px black;
+    background: opaco;
+    float: left;
+    margin: 20px;
+    padding: 10px 20px;
 
 }
 
-
-.index p1 {
-
-    text-align: center center;
-
-    position:relative;top:0;padding:4px;
-    transition: all .2s ease-in-out;             /* efeito que levanta as opções do index */
-
-    text-align: center;
-    color: white;
-    margin-left: 10px;
-    font-size: 15px;
-    text-decoration: none;                       /*sem decoração*/
-    display: flexbox;
-
-}
-
-.index p1:hover{
-
-    color: #9871de;
-    text-decoration: underline;                  /*com decoração após passar o mouse sobre a palavra*/
-
-    text-underline-position:under;
-    top:-4px;box-shadow:0 4px 3px black;
-    
-    display: flexbox;
-
-}
 
 .index a{
 
     text-decoration: none;
+}
 
+
+.index p3 {
+
+    font-size: 15px;
+    position: relative;
+    color:#9871de;
+    text-decoration: none;  
+
+    visibility: visible;
+    -webkit-transform:perspective(1);
+    transform:perspective(1);
+    top:-6px;box-shadow:0 6px 3px opaco;
+
+}
+
+  .index p3:before {
+
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -10px;
+
+    left: 0;
+    background-color:#9871de;
+
+
+    visibility: visible;
+    -webkit-transform:perspective(1);
+    transform:perspective(1);
+  
+}
+
+
+.index p2 {
+
+    font-size: 15px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;  
+
+}
+
+  .index p2:before {
+
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -10px;
+
+    left: 0;
+    background-color:white;
+    visibility: hidden;
+    -webkit-transform:perspective(1);
+    transform:perspective(1);
+    -webkit-transition: all 0 ease-in 0.3s;
+    transition: all 0 ease-in 0.3s;
+
+}
+
+
+ .index p2:hover{
+
+    visibility: visible;
+    -webkit-transform:perspective(1);
+    transform:perspective(1);
+    top:-6px;box-shadow:0 6px 3px opaco;
+   
+
+  }
+
+ .index p2:hover:before {
+
+    visibility: visible;
+    -webkit-transform:perspective(1);
+    transform:perspective(1);
+  
 }
 
 .corpo {
 
     width: 100%;
+    height: 720px;
 	order: 3;
 	margin-top: 20px;
     margin-bottom: 10px;
@@ -145,10 +182,6 @@ body {
    
 }
 
-.corpo img{
-    
-    width: 100%;
-}
 
 .footer {
 
@@ -157,6 +190,7 @@ body {
 	margin-top: 10px;
 	width: 100%;  
     background-color: black;
+    opacity: 0.9;
 	
 }
 
