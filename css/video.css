@@ -19,7 +19,6 @@ body {
     background-repeat:initial;
     background-color: black;
     background-position: center;
-    backdrop-filter: blur(20px);
     width: 100%;
     max-width: 100%;
     margin: 0;
@@ -42,10 +41,9 @@ body {
 
     display: flexbox;
     font-family: Garamond;
-    font-size: 32px;
+    font-size: 28px;
     color: #9871de;
     text-align: center;
-        
 
 }
 
@@ -74,7 +72,7 @@ body {
 	
 }
 
-.index p1{
+.index p1 {
 
     background: opaco;
     float: left;
@@ -83,8 +81,7 @@ body {
 
 }
 
-
-.index a{
+.index a {
 
     text-decoration: none;
 }
@@ -93,6 +90,7 @@ body {
 .index p3 {
 
     font-size: 15px;
+    font-family: Arial;
     position: relative;
     color:#9871de;
     text-decoration: none;  
@@ -104,7 +102,7 @@ body {
 
 }
 
-  .index p3:before {
+.index p3:before {
 
     content: "";
     position: absolute;
@@ -115,7 +113,6 @@ body {
     left: 0;
     background-color:#9871de;
 
-
     visibility: visible;
     -webkit-transform:perspective(1);
     transform:perspective(1);
@@ -125,6 +122,7 @@ body {
 
 .index p2 {
 
+    font-family: Arial;
     font-size: 15px;
     position: relative;
     color: #fff;
@@ -132,7 +130,7 @@ body {
 
 }
 
-  .index p2:before {
+.index p2:before {
 
     content: "";
     position: absolute;
@@ -151,22 +149,22 @@ body {
 }
 
 
- .index p2:hover{
+.index p2:hover {
 
     visibility: visible;
     -webkit-transform:perspective(1);
     transform:perspective(1);
     top:-6px;box-shadow:0 6px 3px opaco;
    
+}
 
-  }
 
- .index p2:hover:before {
+.index p2:hover:before {
 
     visibility: visible;
     -webkit-transform:perspective(1);
     transform:perspective(1);
-  
+
 }
 
 
@@ -179,52 +177,51 @@ body {
 	background-color:black;
 
     background-position: center;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
 	opacity: 10;
     border-radius: 1%;
     display: flexbox;
   
 }
 
-.corpo iframe{
-    
-    width:100%;
-   
- 
-}
-
-
-.memory{
+.video{
 
     width: 100%;
     background-color: black;
-
+                                               
 }
 
-.imagem {
-
-    order: 5;
-    width: 100%;
-    margin-top: 10px;
-
+.corpo iframe{
+    
+    width: 800px;
+    height: 450px;
+   
 }
 
 .box{
 
-    margin: 12px;
     background-position: center;
-    padding: 1%;
-    width: 48%;
-    background-color: white;
+    padding: 10px;
     display: inline-block;
-    border-radius: 1%;
 
+    margin-left: 5%;
+    margin-bottom: 20px;
+ 
+    justify-content: center;
+    border-radius: 1%;
+  
+    width: 820px;
+    height: 550px;
+    background-color: white;
+   
+  
 }
 
-.box p1{
+.box h1 {
 
-    font-size: 15px;
+    font-size: 25px;
+    font-family: Calibri;
     
 }
 
@@ -258,7 +255,7 @@ body {
     text-align: center;
 }
 
-.footer a{
+.footer a {
   
    text-decoration: none;
 

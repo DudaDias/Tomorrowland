@@ -17,9 +17,9 @@
 body {
      
     background-repeat:initial;
-    background-image: url(../img/t\(img04\).jpg);
+    background-image: url(../img/tomorrowland.jpg);
     background-position: center;
-    backdrop-filter: brightness(50%);
+    backdrop-filter: brightness(50%);                       /* efeito sombra na imagem de undo*/
     width: 100%;
     max-width: 100%;
     margin: 0;
@@ -42,10 +42,9 @@ body {
 
     display: flexbox;
     font-family: Garamond;
-    font-size: 32px;
+    font-size: 28px;
     color: #9871de;
     text-align: center;
-        
 
 }
 
@@ -73,7 +72,8 @@ body {
    
 	
 }
-.index p1{
+
+.index p1 {
 
     background: opaco;
     float: left;
@@ -82,8 +82,7 @@ body {
 
 }
 
-
-.index a{
+.index a {
 
     text-decoration: none;
 }
@@ -92,6 +91,7 @@ body {
 .index p3 {
 
     font-size: 15px;
+    font-family: Arial;
     position: relative;
     color:#9871de;
     text-decoration: none;  
@@ -103,7 +103,7 @@ body {
 
 }
 
-  .index p3:before {
+.index p3:before {
 
     content: "";
     position: absolute;
@@ -114,7 +114,6 @@ body {
     left: 0;
     background-color:#9871de;
 
-
     visibility: visible;
     -webkit-transform:perspective(1);
     transform:perspective(1);
@@ -124,6 +123,7 @@ body {
 
 .index p2 {
 
+    font-family: Arial;
     font-size: 15px;
     position: relative;
     color: #fff;
@@ -131,7 +131,7 @@ body {
 
 }
 
-  .index p2:before {
+.index p2:before {
 
     content: "";
     position: absolute;
@@ -150,22 +150,22 @@ body {
 }
 
 
- .index p2:hover{
+.index p2:hover {
 
     visibility: visible;
     -webkit-transform:perspective(1);
     transform:perspective(1);
     top:-6px;box-shadow:0 6px 3px opaco;
    
+}
 
-  }
 
- .index p2:hover:before {
+.index p2:hover:before {
 
     visibility: visible;
     -webkit-transform:perspective(1);
     transform:perspective(1);
-  
+
 }
 
 .corpo {
@@ -253,7 +253,7 @@ body {
 
 }
 
-.social {                                        /* para agrupar os icones */
+.social {                                        /* box para agrupar os icones */
 
     background-color: black;
     width: 12%;
