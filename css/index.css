@@ -33,7 +33,7 @@ body {
     display: flexbox;
     opacity: 0.8;
 	background-color: black;
-	width: 30%;  
+	width: 35%;  
  
 
 }
@@ -42,7 +42,7 @@ body {
 
     display: flexbox;
     font-family: Garamond;
-    font-size: 28px;
+    font-size: clamp(0.4em, 0.7em + 1vw, 2.2em);
     color: #9871de;
     text-align: center;
 
@@ -62,7 +62,7 @@ body {
 
 .index {
 
-    width:70%; 
+    width:65%; 
     height: auto;
 	order: 2;   
     opacity: 0.8;

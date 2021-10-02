@@ -24,6 +24,7 @@ body {
     max-width: 100%;
     margin: 0;
     padding: 0;
+    
 
 }
 
@@ -33,7 +34,7 @@ body {
     display: flexbox;
     opacity: 0.8;
 	background-color: black;
-	width: 30%;  
+	width: 35%;  
  
 
 }
@@ -42,7 +43,7 @@ body {
 
     display: flexbox;
     font-family: Garamond;
-    font-size: 28px;
+    font-size: clamp(0.4em, 0.7em + 1vw, 2.2em);
     color: #9871de;
     text-align: center;
 
@@ -61,13 +62,15 @@ body {
 
 .index {
 
-    width:70%; 
+    width:65%; 
     height: auto;
 	order: 2;   
     opacity: 0.8;
     background-color: black;
     padding: 3%;
     display: flexbox;
+    font-size: clamp(0.4em, 0.7em + 1vw, 1.2em);
+  
    
 	
 }
@@ -78,7 +81,8 @@ body {
     float: left;
     margin: 20px;
     padding: 10px 20px;
-
+    
+    
 }
 
 .index a {
@@ -99,6 +103,7 @@ body {
     -webkit-transform:perspective(1);
     transform:perspective(1);
     top:-6px;box-shadow:0 6px 3px opaco;
+    
 
 }
 
@@ -230,7 +235,6 @@ body {
 .footer h4{
     
     font-family: Arial;
-    font-size: 15px;
     color: white;
     text-align: center;
 }
