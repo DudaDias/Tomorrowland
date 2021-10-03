@@ -41,6 +41,7 @@ body {
 .header h1 {
 
     display: flexbox;
+    margin: 1%;
     font-family: Garamond;
     font-size: clamp(0.4em, 0.7em + 1vw, 2.2em);
     color: #9871de;
@@ -56,9 +57,30 @@ body {
     width: 15%;
     margin-left: 42.5%;
     margin-right: 42.5%;
+    font-size: clamp(0.4em, 0.7em + 1vw, 2.2em);
     
 }
 
+.navbar{
+
+    justify-content: right;
+}
+
+.navbar p2{
+
+
+    float: left;
+    margin-left: 25px;
+   
+}
+
+.navbar p3{
+
+    float: left;
+    margin-left: 25px;
+   
+
+}
 
 .index {
 
@@ -69,6 +91,8 @@ body {
     background-color: black;
     padding: 3%;
     display: flexbox;
+    font-size: clamp(0.4em, 0.7em + 1vw, 1.2em);
+  
    
 	
 }
@@ -77,9 +101,10 @@ body {
 
     background: opaco;
     float: left;
-    margin: 20px;
+    margin: 100px;
     padding: 10px 20px;
-
+    
+    
 }
 
 .index a {
@@ -90,7 +115,7 @@ body {
 
 .index p3 {
 
-    font-size: 15px;
+    font-size: 20px;
     font-family: Arial;
     position: relative;
     color:#9871de;
@@ -100,6 +125,7 @@ body {
     -webkit-transform:perspective(1);
     transform:perspective(1);
     top:-6px;box-shadow:0 6px 3px opaco;
+    
 
 }
 
@@ -124,7 +150,7 @@ body {
 .index p2 {
 
     font-family: Arial;
-    font-size: 15px;
+    font-size: 20px;
     position: relative;
     color: #fff;
     text-decoration: none;  
@@ -214,6 +240,7 @@ body {
 	
 }
 
+
 .footer img{
 
     width: 5%;
@@ -224,63 +251,72 @@ body {
     
 }
 
-.footer h4{
+.footer a{
+  
+    text-decoration: none;
+ 
+ }
+
+ .footer h4{
     
+    margin-top: 1%;
+    font-size: clamp(0.4em, 0.7em + 1vw, 1.2em);
     font-family: Arial;
-    font-size: 15px;
     color: white;
     text-align: center;
 }
-
-
-.footer a{
-  
-   text-decoration: none;
-
-}
-
-.icons{
+ 
+ 
+ .icons{
+     
+     display: flex;
+     justify-content: space-around;
+ 
+     justify-content: center;
+     margin-left: 10px;
+ 
+     background-position: center;
+   
+     background-position: center;
+     width: 25px;
+     height: 25px;
+     background-color: black;
+     display: inline-block;
     
-
-    justify-content: center;
-    margin-left: 10px;
-    width: 25px;
-    height: 25px;
-    background-color: black;
-    display: inline-block;
+    
+ }
+ .icons img{
+ 
+     justify-content: center;
+     background-position: center;
+     margin-left: 4px;
+     width: 100%; 
+     display: block;
+ 
+ 
+ }
+ 
+ .icons img:hover{
+ 
+     justify-content: center;
+     background-position: center;
+     margin-left: 4px;
+     width: 100%; 
+     opacity: 0.5;
+ 
+ 
+ }
+ 
+ .social {
+ 
+     background-color: black;
+     width: 12%;
+     margin-left: 44%;
+     margin-right: 44%;
+     left: 0;
+     display: flexbox;
+ 
    
-   
-}
-
-.icons img{
-
-    justify-content: center;                       
-    background-position: center;
-    margin-left: 4px;
-    width: 100%; 
-    display: flex;
-
-}
-
-.icons img:hover{
-
-    justify-content: center;
-    background-position: center;
-    margin-left: 4px;                           /* hover nos icones */
-    width: 100%; 
-    opacity: 0.5;
-
-}
-
-.social {                                        /* para agrupar os icones */
-
-    background-color: black;
-    width: 12%;
-    margin-left: 44%;
-    margin-right: 44%;
-    left: 0;
-    display: flexbox;
-
-}
+ }
 
 
