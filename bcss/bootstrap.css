@@ -1025,10 +1025,10 @@ button:not(:disabled),
 @media (prefers-reduced-motion: reduce) {
 
   .btn {
-    padding: 20px 0px;
-    
+ 
     transition: none;
     text-align: left;
+    padding: 10px 40px;
   
   }
 
@@ -1037,7 +1037,6 @@ button:not(:disabled),
     background-color: opaco;
     border-color: opaco;
   }
-
 
 }
 .btn:hover {
@@ -1050,7 +1049,7 @@ button:not(:disabled),
 }
 
 .btn-primary {
-  padding: 8px 90px;
+  padding: 1% 7%;
   color: #fff;
   background-color: opaco;
   border-color: opaco;
@@ -1498,22 +1497,6 @@ button:not(:disabled),
   border-radius: 0.2rem;
 }
 
-@media screen and (max-width: 870px) {
-
-  .btn {
-    padding: 10px 40px;
-  
-  }
-
-  .btn-primary:hover {
-    color: opaco;
-    background-color: opaco;
-    border-color: opaco;
-  }
-
-
-
-}
 
 
 /*# sourceMappingURL=bootstrap.css.map */
